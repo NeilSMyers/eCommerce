@@ -13,17 +13,17 @@ class SignInForm extends Component {
       {
         _id: 0,
         title: "Not registered? Create account here",
-        onCLick: () => history.push('/signup')
+        onClick: () => history.push('/signup')
       },
       {
         _id: 1,
         title: "Forgot account email?",
-        onCLick: () => console.log("email")
+        onClick: () => console.log("email")
       },
       {
         _id: 2,
         title: "Forgot password?",
-        onCLick: () => console.log("password")
+        onClick: () => console.log("password")
       }
     ]
     return (
